@@ -8,35 +8,62 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base colors - serene mountain theme */
+    --background: 35 20% 97%;
+    --foreground: 210 12% 25%;
 
+    /* Card colors - warm whites with subtle warmth */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 12% 25%;
 
+    /* Popover colors */
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 12% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - sage green for meditation theme */
+    --primary: 120 20% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - warm beige/cream */
+    --secondary: 35 25% 88%;
+    --secondary-foreground: 210 12% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted colors - soft, understated */
+    --muted: 35 15% 92%;
+    --muted-foreground: 210 8% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - slightly deeper sage */
+    --accent: 120 25% 48%;
+    --accent-foreground: 0 0% 100%;
 
+    /* Destructive colors */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Border and input styling */
+    --border: 35 20% 85%;
+    --input: 35 20% 88%;
+    --ring: 120 20% 55%;
 
-    --radius: 0.5rem;
+    /* Custom meditation app colors */
+    --sage: 120 20% 55%;
+    --sage-light: 120 15% 75%;
+    --sage-dark: 120 25% 35%;
+    --warm-beige: 35 25% 88%;
+    --soft-white: 0 0% 98%;
+    --mountain-mist: 210 15% 92%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(120 20% 55%) 0%, hsl(120 15% 75%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(35 15% 95%) 100%);
+    --gradient-button: linear-gradient(135deg, hsl(120 25% 48%) 0%, hsl(120 20% 55%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsl(120 20% 55% / 0.1);
+    --shadow-card: 0 8px 32px hsl(210 15% 25% / 0.08);
+    --shadow-button: 0 4px 16px hsl(120 20% 55% / 0.2);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
